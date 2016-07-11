@@ -25,7 +25,7 @@ var sentence = 'Challengers said, "Mert is learning JavaScript.".'
 
 <b><u>Escape Sequences in Strings</u></b>
 
-<table class="table">
+<table class="table" align="center">
  <tr><td><b>Code</b></td><td><b>Output</b></td></tr>
  <tr><td>\'</td><td>single quote</td></tr>
  <tr><td>\"</td><td>double quote</td></tr>
