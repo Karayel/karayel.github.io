@@ -25,17 +25,14 @@ var sentence = 'Challengers said, "Mert is learning JavaScript.".'
 
 <b><u>Escape Sequences in Strings</u></b>
 
-<table class="table" align="center">
- <tr><td><b>Code</b></td><td><b>Output</b></td></tr>
- <tr><td>\'</td><td>single quote</td></tr>
- <tr><td>\"</td><td>double quote</td></tr>
- <tr><td>\\</td><td>backslash</td></tr>
- <tr><td>\n</td><td>newline</td></tr>
- <tr><td>\r</td><td>carriage return</td></tr>
- <tr><td>\t</td><td>tab</td></tr>
- <tr><td>\b</td><td>backspace</td></tr>
- <tr><td>\f</td><td>form feed</td></tr>
-</table>
+\\' single quote -
+\\" double quote -
+\\\\ backslash -
+\n newline -
+\r carriage return -
+\t tab -
+\b backspace -
+\f feed
 
 <b><u>Concatenating Strings with Plus Operator</u></b>
 
