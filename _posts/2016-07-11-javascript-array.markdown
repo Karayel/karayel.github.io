@@ -47,7 +47,7 @@ push() always removes the first element of an array.
 
 var arr = [1,2,3];
 
-arr.pop(); // 1
+arr.shift(); // 1
 
 <b><u>Manipulate Arrays With unshift</u></b>
 
