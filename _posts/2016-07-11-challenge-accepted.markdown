@@ -2,10 +2,7 @@
 published: true
 title: Challenge Accepted
 layout: post
-tags: [challenge]
-categories: [challenge]
 ---
-
 <b>Free Code Camp</b>  HTML, CSS, Javascript, Data visualization...
 
 <b>Machine Learning</b> MATLAB
