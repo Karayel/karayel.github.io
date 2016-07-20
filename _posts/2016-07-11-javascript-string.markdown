@@ -3,7 +3,7 @@ published: true
 title: Javascript String
 layout: post
 tags: [string, javascript]
-categories: [Javascirpt]
+categories: [Javascript]
 ---
 <b><u>Declaration</u></b>
 
