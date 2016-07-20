@@ -2,6 +2,8 @@
 published: true
 title: Javascript Function
 layout: post
+tags: [javascript, comparasion]
+categories: [Javascript]
 ---
 <b><u>Write Reusable JavaScript with Functions</u></b>
 
