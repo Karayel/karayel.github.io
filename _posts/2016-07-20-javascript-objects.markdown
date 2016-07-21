@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Javascript Objects
 layout: post
 ---
@@ -68,3 +68,39 @@ alpha[24]; // "C"
 We can use the .hasOwnProperty(propname) method of objects to determine if that object has the given property name. .hasOwnProperty() returns true or false if the property is found or not.
 
 myName.hasOwnProperty("First Name"); // true
+
+<b><u>Manipulating Complex Objects</u></b>
+
+Here's an example of a complex data structure:
+
+var ourMusic = [
+  {
+    "artist": "Daft Punk",
+    "title": "Homework",
+    "release_year": 1997,
+    "formats": [ 
+      "CD", 
+      "Cassette", 
+      "LP" ],
+    "gold": true
+  }
+];
+
+This is an array which contains one object inside. The object has various pieces of metadata about an album. 
+
+<b><u>Accessing Nested  Objects</u></b>
+
+var ourStorage = {
+  "desk": {
+    "drawer": "stapler"
+  },
+  "cabinet": {
+    "top drawer": { 
+      "folder1": "a file",
+      "folder2": "secrets"
+    },
+    "bottom drawer": "soda"
+  }
+};
+
+ourStorage.cabiner["top drawer"].folder1; //a file
