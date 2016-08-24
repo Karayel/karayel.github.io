@@ -1,18 +1,14 @@
 [
   {
     "icon": "fa-facebook",
-    "link": ""
-  },
-  {
-    "icon": "fa-twitter",
-    "link": ""
+    "link": "https://www.facebook.com/profile.php?id=100005254320960"
   },
   {
     "icon": "fa-linkedin",
-    "link": ""
+    "link": "https://www.linkedin.com/in/karayelmert"
   },
   {
     "icon": "fa-stack-exchange",
-    "link": ""
+    "link": "http://stackoverflow.com/users/4919940/karayel"
   }
 ]
