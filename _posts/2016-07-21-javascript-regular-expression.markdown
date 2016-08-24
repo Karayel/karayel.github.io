@@ -35,9 +35,11 @@ Some basic rules for regular expression:
 
 <b>Important Note:</b> You can invert any match by using the uppercase version of the regular expression selector.
  
+{% highlight js %}
 // Setup
 var testString = "Ada Lovelace and Charles Babbage designed the first computer and the software that would have run on it.";
 
 // Example
 var expressionToGetSoftware = /software/gi;
 var softwareCount = testString.match(expressionToGetSoftware).length;
+{% endhighlight %}
