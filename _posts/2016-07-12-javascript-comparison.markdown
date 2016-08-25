@@ -3,7 +3,7 @@ published: true
 title: Javascript Comparison
 layout: post
 tags: [javascript, comparison]
-categories: [Javascript]
+categories: [javascript]
 ---
 <b><u>Comparison with the Strict Equality Operator</u></b>
 

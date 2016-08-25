@@ -3,7 +3,7 @@ published: true
 title: Javascript Regular Expression
 layout: post
 tags: [javascript, regular, expression]
-categories: [Javascript]
+categories: [javascript]
 ---
 <b><u>Sift through Text with Regular Expressions</u></b>
 

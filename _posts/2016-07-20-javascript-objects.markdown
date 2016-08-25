@@ -3,7 +3,7 @@ published: true
 title: Javascript Objects
 layout: post
 tags: [javascript, objects]
-categories: [Javascript]
+categories: [javascript]
 ---
 <b><u>Creating Object<u></u>
 

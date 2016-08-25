@@ -3,7 +3,7 @@ published: true
 title: Javascript Object Oriented Programming
 layout: post
 tags: [javascript, oop ]
-categories: [Javascript]
+categories: [javascript]
 ---
 <b><u>Constructor</u></b>
 

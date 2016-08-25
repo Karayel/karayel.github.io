@@ -3,7 +3,7 @@ published: true
 title: Javascript Array
 layout: post
 tags: [javascript, array]
-categories: [Javascript]
+categories: [javascript]
 ---
 <b><u>Array</u></b>
 
