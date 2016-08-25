@@ -95,7 +95,7 @@ We know the JSON data and we can use the .forEach() method to loop through our d
 Here's the code that does this:
 
 <%highlight js%>
-#json coming from the getJSON method.
+//json coming from the getJSON method.
 json.forEach(function(val) {
   // every json object has a unique key and 
   // according to these key filled out the information about data.
