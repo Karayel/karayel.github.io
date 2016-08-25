@@ -5,7 +5,7 @@ logo: /static/img/avatar.png
 github: https://github.com/Karayel
 about: Software Engineering Student
 
-baseurl: ""
+baseurl: "https://karayel.github.io"
 url: ""
 
 disqus_shortname: karayel
