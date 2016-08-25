@@ -94,7 +94,7 @@ $(document).ready(function() {
 We know the JSON data and we can use the .forEach() method to loop through our data and modify our HTML elements.
 Here's the code that does this:
 
-<%highlight js%>
+{% highlight js %}
 //json coming from the getJSON method.
 json.forEach(function(val) {
   // every json object has a unique key and 
@@ -110,7 +110,7 @@ json.forEach(function(val) {
 
 At the end of this, our script will be like this
 
-<%highlight js%>
+{% highlight js %}
 $(document).ready(function() {
     $("#getMessage").on("click", function() {
       $.getJSON("/json/cats.json", function(json) {
@@ -130,7 +130,7 @@ $(document).ready(function() {
 {% endhighlight %}
 
 When we click the button, we got JSON object as below:
-<%highlight js%>
+{% highlight js %}
 [  
    {  
       id:0,
@@ -151,13 +151,13 @@ We know that JSON object has id, imageLink, altText and codeNames properties. We
 
 Here's the code that does this:
 
-<%highlight js%>
+{% highlight js %}
 html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>";
 {% endhighlight %}
 
 After the rendering Image From Data Sources, forEach part will be change a little bit.
 
-<%highlight js%>
+{% highlight js %}
  $(document).ready(function() {
     $("#getMessage").on("click", function() {
       $.getJSON("/json/cats.json", function(json) {
@@ -179,7 +179,7 @@ Let's filter out the cat whose "id" key has a value of 1.
 
 Here's the code to do this:
 
-<%highlight js%>
+{% highlight js %}
 json = json.filter(function(val) {
   return (val.id !== 1);
 });
