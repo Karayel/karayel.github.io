@@ -7,7 +7,11 @@ title: Blog
       {% for post in paginator.posts %}
       <div class="list-group-item">
         <div class="row-action-primary">
-          <i class="fa fa-sticky-note"></i>
+          {% if post.categories.size != 0 %}
+            <i class="devicon-{{post.categories[0]}}-plain"></i>
+          {% else %}
+            <i class="fa fa-sticky-note"></i>
+          {% endif %}
         </div>
         <div class="row-content">
           <div class="least-content">{{ post.date | date_to_string }}</div>
