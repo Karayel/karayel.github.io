@@ -1,9 +1,9 @@
 ---
-published: false
-title: JSON API and AJAX
+published: true
+title: JSON API and AJAX Usage
 layout: post
 ---
-We can make basic application with using json api and ajax. We can use some html file as below during the application.
+We can make basic application with using json api and ajax. We can use some html file as below and JSON file as linked https://www.freecodecamp.com/json/cats.json during the application.
 
 {% highlight html %}
 <div class="container-fluid">
@@ -24,6 +24,7 @@ We can make basic application with using json api and ajax. We can use some html
   </div>
 </div>
 {% endhighlight %}
+
 
 <b><u>Trigger Click Events with jQuery</u><b>
 
@@ -74,7 +75,7 @@ $.getJSON("/json/cats.json", function(json) {
 });
 {% endhighlight %}
 
-
+After the knowledge, our script will be as follows
 
 {% highlight js %}
 $(document).ready(function() {
@@ -85,3 +86,100 @@ $(document).ready(function() {
     });
   });
 {% endhighlight %}
+
+<b><u>Convert JSON Data to HTML</u></b>
+
+We know the JSON data and we can use the .forEach() method to loop through our data and modify our HTML elements.
+Here's the code that does this:
+
+<%highlight js%>
+#json coming from the getJSON method.
+json.forEach(function(val) {
+  // every json object has a unique key and 
+  // according to these key filled out the information about data.
+  var keys = Object.keys(val);
+  html += "<div class = 'cat'>";
+  keys.forEach(function(key) {
+    html += "<strong>" + key + "</strong>: " + val[key] + "<br>";
+  });
+  html += "</div><br>";
+});
+{% endhighlight %}
+
+At the end of this, our script will be like this
+
+<%highlight js%>
+$(document).ready(function() {
+    $("#getMessage").on("click", function() {
+      $.getJSON("/json/cats.json", function(json) {
+        var html = "";
+        json.forEach(function(val) {
+           var keys = Object.keys(val);
+           html += "<div class = 'cat'>";
+           keys.forEach(function(key) {
+           html += "<strong>" + key + "</strong>: " + val[key] + "<br>";
+        });
+        html += "</div><br>";
+      });
+        $(".message").html(html);
+      });
+    });
+  });
+{% endhighlight %}
+
+When we click the button, we got JSON object as below:
+<%highlight js%>
+[  
+   {  
+      id:0,
+      imageLink: https://s3.amazonaws.com/freecodecamp/funny-cat.jpg,
+      altText:A white cat wearing a green helmet shaped melon on it's head.,
+      codeNames:[  
+         Juggernaut,
+         Mrs. Wallace,
+         Buttercup
+      ]
+   }
+]
+{% endhighlight %}
+
+<b><u>Rendering Image From Data Sources</u></b>
+
+We know that JSON object has id, imageLink, altText and codeNames properties. We wanna only use imageLink property for showing image.
+
+Here's the code that does this:
+
+<%highlight js%>
+html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>";
+{% endhighlight %}
+
+After the rendering Image From Data Sources, forEach part will be change a little bit.
+
+<%highlight js%>
+ $(document).ready(function() {
+    $("#getMessage").on("click", function() {
+      $.getJSON("/json/cats.json", function(json) {
+        var html = "";
+        json.forEach(function(val) {
+          html += "<div class = 'cat'>";
+          html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>";  
+          html += "</div>";
+        });
+        $(".message").html(html);
+      });
+    });
+  });
+{% endhighlight %}
+
+<b><u>Prefilter JSON</u></b>
+
+Let's filter out the cat whose "id" key has a value of 1.
+
+Here's the code to do this:
+
+<%highlight js%>
+json = json.filter(function(val) {
+  return (val.id !== 1);
+});
+{% endhighlight %}
+
