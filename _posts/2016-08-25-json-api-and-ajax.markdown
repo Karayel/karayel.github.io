@@ -2,6 +2,8 @@
 published: true
 title: JSON API and AJAX Usage
 layout: post
+tags: [javascript, json, ajax]
+categories: [javascript]
 ---
 We can make basic application with using json api and ajax. We can use some html file as below and JSON file as linked https://www.freecodecamp.com/json/cats.json during the application.
 
@@ -182,4 +184,3 @@ json = json.filter(function(val) {
   return (val.id !== 1);
 });
 {% endhighlight %}
-
