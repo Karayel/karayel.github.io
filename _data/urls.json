@@ -17,8 +17,7 @@
   },
   {
     "text": "Resume",
-    "url": "#",
-    "icon": "fa-graduation-cap",
-    "layout": "post"
+    "url": "/resume/",
+    "icon": "fa-graduation-cap"
   }
 ]
