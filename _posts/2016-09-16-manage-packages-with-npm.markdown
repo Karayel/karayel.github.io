@@ -3,7 +3,7 @@ published: true
 title: Manage Packages with npm
 layout: post
 tags: [javascript, npm, manage, package]
-categories: [javascript, npm]
+categories: [javascript]
 ---
 <b><u>Install</u></b>
 
