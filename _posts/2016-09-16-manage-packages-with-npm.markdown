@@ -2,8 +2,8 @@
 published: true
 title: Manage Packages with npm
 layout: post
-tags: [npm, manage, package]
-categories: [npm]
+tags: [javascript, npm, manage, package]
+categories: [javascript, npm]
 ---
 <b><u>Install</u></b>
 
