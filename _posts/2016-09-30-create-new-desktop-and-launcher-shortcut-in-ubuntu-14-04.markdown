@@ -5,7 +5,7 @@ layout: post
 tags: [linux, shortcut]
 categories: [linux]
 ---
-### Create New Desktop Shortcut
+**Create New Desktop Shortcut**
 
 1) Open Terminal.Type the below code in terminal and hit enter.
 {% highlight bash %}
@@ -22,7 +22,7 @@ gnome-desktop-item-edit ~/Desktop/ --create-new
 
 4) Now check your desktop for the shortcut.
 
-### Create New Launcher Shortcut
+ **Create New Launcher Shortcut**
 
 1) In Create New Desktop Shortcut section, you created an desktop shortcut. Open the shortcut with text editor and copy it. 
 {% highlight bash %}
