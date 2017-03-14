@@ -22,6 +22,6 @@ This is a simple personal material theme, best suited for personal authors, prog
 
 #### RUN 
 
-rvm use 2.4
-cd location
-bundle exec jekyll serve
+* rvm use 2.4
+* cd location
+* bundle exec jekyll serve
