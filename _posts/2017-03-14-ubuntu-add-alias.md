@@ -7,6 +7,7 @@ tags:
 categories: linux
 ---
 
+{% highlight bash %}
 mkdir /usr/bin/Bash
 
 cp YourBash.sh /usr/bin/Bash
@@ -18,3 +19,4 @@ alias youralias='sh /usr/bin/Bash/YourBash.sh'
 source ~/.bashrc
 
 youralias
+{% endhighlight %}
