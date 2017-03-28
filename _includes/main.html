@@ -1,15 +1,23 @@
-<div class="container main outer">
-      <div class="row">
-        <div class="col-md-3 col-xs-12">
-          {% include sidemenu.html %}
-        </div>
-        <div class="col-md-9 col-xs-12 full">
-          {{ content }}
-          <div class="row">
-            <div class="col-md-12 col-xs-12 footer">
-              {% include footer.html %}
+<div id="main">
+    <div class="header-panel shadow-z-2">
+        <div class="row" style="margin: auto;">
+            <div class="col-md-9 col-sm-8 col-xs-12">
+                <h2 class="blog-title-pro">{{ page.title }}</h2>
+                <p class="info">
+                    {% if page.date %}
+                    <span class="time">{{ page.date | date_to_string }}</span> {% endif %} {% if page.categories.size > 0 %}
+                    <span class="categories">
+                    &raquo;
+                    {% for category in page.categories %}
+                      <a href="/category/{{ category }}">{{ category }}</a>
+                      {% if forloop.last == false %}, {% endif %}
+                    {% endfor %}
+                  </span> {% endif %}
+                </p>
             </div>
-          </div>
-        </div> <!-- end /.col-md-9 -->
-      </div> <!-- end /.row -->
+        </div>
     </div>
+    <div class="col-md-12">
+        {{content}}
+    </div>
+</div>

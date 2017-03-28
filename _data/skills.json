@@ -1,0 +1,38 @@
+[
+  {
+    "title":"Java SE",
+    "progress":"50"
+  },
+  {
+    "title":"NodeJS",
+    "progress":"40"
+  },
+  {
+    "title":"CakePHP",
+    "progress":"40"
+  },
+  {
+    "title":"Android",
+    "progress":"40"
+  },
+  {
+    "title":"API",
+    "progress":"70"
+  },
+  {
+    "title":"Git",
+    "progress":"70"
+  },
+  {
+    "title":"Ubuntu",
+    "progress":"50"
+  },
+  {
+    "title":"Bootstrap",
+    "progress":"80"
+  },
+  {
+    "title":"jquery & ajax",
+    "progress":"50"
+  },
+]

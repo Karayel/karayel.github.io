@@ -1,9 +1,9 @@
-title: Mert Karayel
+title: Mert KARAYEL
 description: My Personal Blog
-author: Mert Karayel
+author: Mert KARAYEL
 logo: /static/img/avatar.png
 github: https://github.com/Karayel
-about: Software Engineering Student
+about: Software Engineer at Cenicon
 
 baseurl: ""
 url: ""
@@ -19,8 +19,8 @@ share:
 enableTags: true
 tagarray: []
 
-paginate: 20
-per_page: 20
+paginate: 8
+per_page: 8
 paginate_path: "/page:num/"
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]

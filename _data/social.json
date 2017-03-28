@@ -1,5 +1,9 @@
 [
   {
+    "icon":"fa-file-pdf-o",
+    "link":"#"
+  },
+  {
     "icon": "fa-github",
     "link": "http://github.com/karayel"
   },
@@ -10,5 +14,9 @@
   {
     "icon": "fa-stack-exchange",
     "link": "http://stackoverflow.com/users/4919940/karayel"
+  },
+  {
+    "icon": "fa-free-code-camp",
+    "link": "https://www.freecodecamp.com/karayel"
   }
 ]
