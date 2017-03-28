@@ -5,7 +5,7 @@ logo: /static/img/avatar.png
 github: https://github.com/Karayel
 about: Software Engineer at Cenicon
 
-baseurl: "http://mkarayel.com/"
+baseurl: ""
 url: ""
 
 disqus_shortname: karayel
