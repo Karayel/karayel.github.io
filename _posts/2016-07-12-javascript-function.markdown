@@ -1,10 +1,14 @@
 ---
-published: true
 title: Javascript Function
+published: false
 layout: post
-tags: [javascript, comparasion]
-categories: [javascript]
+tags:
+- javascript
+- comparasion
+categories:
+- javascript
 ---
+
 <b><u>Write Reusable JavaScript with Functions</u></b>
 
 Example function 
@@ -52,4 +56,3 @@ function plusThree(num) {
 
 var answer = plusThree(5); // 8
 {% endhighlight %}
-

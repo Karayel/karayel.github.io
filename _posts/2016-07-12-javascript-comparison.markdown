@@ -1,10 +1,14 @@
 ---
-published: true
 title: Javascript Comparison
+published: false
 layout: post
-tags: [javascript, comparison]
-categories: [javascript]
+tags:
+- javascript
+- comparison
+categories:
+- javascript
 ---
+
 <b><u>Comparison with the Strict Equality Operator</u></b>
 
 Strict equality (===) is the counterpart to the equality operator (==). Unlike the equality operator, strict equality tests both the data type and value of the compared elements.

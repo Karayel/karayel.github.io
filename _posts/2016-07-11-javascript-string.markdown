@@ -1,10 +1,14 @@
 ---
-published: true
 title: Javascript String
+published: false
 layout: post
-tags: [string, javascript]
-categories: [javascript]
+tags:
+- string
+- javascript
+categories:
+- javascript
 ---
+
 <b><u>Declaration</u></b>
 
 {% highlight js %}

@@ -1,10 +1,14 @@
 ---
-published: true
 title: Javascript Object Oriented Programming
+published: false
 layout: post
-tags: [javascript, oop ]
-categories: [javascript]
+tags:
+- javascript
+- oop
+categories:
+- javascript
 ---
+
 <b><u>Constructor</u></b>
 
 {% highlight js %}

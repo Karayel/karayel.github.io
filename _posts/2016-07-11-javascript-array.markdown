@@ -1,10 +1,14 @@
 ---
-published: true
 title: Javascript Array
+published: false
 layout: post
-tags: [javascript, array]
-categories: [javascript]
+tags:
+- javascript
+- array
+categories:
+- javascript
 ---
+
 <b><u>Array</u></b>
 
 We can store several pieces of data in one place with using array.
@@ -156,6 +160,3 @@ var joinMe = ["Split","me","into","an","array"];
 var joinedString = '';
 joinedString = joinMe.join(" "); // Split me into an array
 {% endhighlight %}
-
-
-

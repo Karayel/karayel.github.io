@@ -1,10 +1,15 @@
 ---
-published: true
 title: Javascript Regular Expression
+published: false
 layout: post
-tags: [javascript, regular, expression]
-categories: [javascript]
+tags:
+- javascript
+- regular
+- expression
+categories:
+- javascript
 ---
+
 <b><u>Sift through Text with Regular Expressions</u></b>
 
 Regular expressions are used to find certain words or patterns inside of strings.
