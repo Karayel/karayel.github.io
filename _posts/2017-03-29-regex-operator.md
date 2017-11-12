@@ -1,9 +1,12 @@
 ---
 title: Regex Operator
-published: true
+published: false
 layout: post
-tags: [mongodb,operator]
-categories: [mongodb]
+tags:
+- mongodb
+- operator
+categories:
+- mongodb
 ---
 
 **$regex**	Selects documents where values match a specified regular expression

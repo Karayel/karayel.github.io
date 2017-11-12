@@ -1,9 +1,12 @@
 ---
-published: true
 title: Comparison Operators
+published: false
 layout: post
-tags: [mongodb, operator]
-categories: [mongodb]
+tags:
+- mongodb
+- operator
+categories:
+- mongodb
 ---
 
 * **$eq**	Matches values that are equal to a specified value.

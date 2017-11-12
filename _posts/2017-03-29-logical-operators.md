@@ -1,9 +1,12 @@
 ---
 title: Logical Operators
-published: true
+published: false
 layout: post
-tags: [mongodb,operator]
-categories: [mongodb]
+tags:
+- mongodb
+- operator
+categories:
+- mongodb
 ---
 
 * **$or**	Joins query clauses with a logical OR returns all documents that match the conditions of either clause.

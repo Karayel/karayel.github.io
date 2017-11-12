@@ -1,9 +1,12 @@
 ---
-published: true
 title: Creating Documents in MongoDB
+published: false
 layout: post
-tags: [mongodb, create]
-categories: [mongodb] 
+tags:
+- mongodb
+- create
+categories:
+- mongodb
 ---
 
 **Insert One**
