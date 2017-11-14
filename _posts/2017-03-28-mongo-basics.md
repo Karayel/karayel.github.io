@@ -1,6 +1,6 @@
 ---
 title: Mongo Basics
-layout: default
+layout: post
 published: true
 tags:
 - mongodb

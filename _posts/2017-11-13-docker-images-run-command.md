@@ -1,6 +1,6 @@
 ---
 title: Docker Images Run Command
-layout: default
+layout: post
 published: true
 tags:
 - docker
