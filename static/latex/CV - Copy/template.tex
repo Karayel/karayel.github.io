@@ -1,0 +1,216 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{mert.jpg} % Profile picture
+
+\cvname{Mert Karayel} % Your name
+\cvjobtitle{Software Engineer} % Job title/career
+
+\cvdate{8 September 1994} % Date of birth
+\cvaddress{Istanbul,Turkey} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+90 534 587 45 21} % Phone number
+\cvsite{\href{http://mkarayel.com}{http://mkarayel.com}} % Personal website
+\cvmail{mert.karayel@mkarayel.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+\aboutme{}
+%\aboutme{Alice is a sensible prepubescent girl from a wealthy English family who finds herself in a strange world ruled by imagination and fantasy. Alice feels comfortable with her identity and has a strong sense that her environment is comprised of clear, logical, and consistent rules and features. Alice's familiarity with the world has led one critic to describe her as a "disembodied intellect". Alice displays great curiosity and attempts to fit her diverse experiences into a clear understanding of the world.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Mongo DB/2},{SQL/3},{Jquery \& Ajax/3},{Bootstrap/5},{Ubuntu/4},{Git/4},{API/5},{Android/3},{Cake PHP/3},{Node JS/5},{Java/3}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+%The heroine and the dreamer of Wonderland; Alice is the principal character.
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2012-2017}{Bachelor of Software Engineering Degree}{Istanbul/Turkey}{\emph{FMV Isik University - GPA: 3.33} \newline
+	Rank 1st in Software Engineering}
+	\twentyitem{2016-Present}{Full Stack Web Development Certification}{Online}{\emph{Free Code Camp}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\section{Publications}
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+	%\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
+	%\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
+	%\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
+	%\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
+	%\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
+	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+%	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+%	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\newline
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Oct 2016-Jun 2017}{Software Engineer / Telenity - Cenicon}{Istanbul/Turkey}{Java, Spring Boot
+	\newline MySQL, Hibernate, WebService 
+	\newline API, CakePHP, Android, Web RTC
+	\newline HTML, CSS, Javascript, Bootstrap}
+	\twentyitem{Jun 2016}{Intern / Cenicon}{Istanbul/Turkey}{API, API Management, .NET Entity Framework
+	\newline Bash, Python}
+	\twentyitem{Mar 2015-May 2016}{Lab Assistant / Isik University}{Istanbul/Turkey}{Lab Maintanance, Lecture}
+	\twentyitem{Jun-Aug 2015}{Intern / Litera Bilisim}{Bursa/Turkey}{
+	WCF Service, X509 certificate 
+	\newline Android, AccessDB, Web Service	}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 CERTIFICATE
+%----------------------------------------------------------------------------------------
+
+
+\section{Certificate}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{Feb 2015}{Android  101 / \href{https://goo.gl/281Osc}{https://goo.gl/281Osc}}
+	\twentyitemshort{Jul 2015}{Android  201 / \href{https://goo.gl/CBb44N}{https://goo.gl/CBb44N}}
+	\twentyitemshort{Aug 2016}{Ozdilek Java Okulu / \href{https://goo.gl/ldGnKY}{https://goo.gl/ldGnKY} }
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\subsection{\underline{Personal Projects}}
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{May 2016}{Stop and Wait Protocol /\href{https://goo.gl/F7U9ur}{https://goo.gl/F7U9ur} }
+	\twentyitemshort{May 2016}{Data Encryption Standard / \href{https://goo.gl/2A4Sto}{https://goo.gl/2A4Sto}}
+	\twentyitemshort{June 2017}{Bug Detection/ \href{https://goo.gl/Bmde7w}{https://goo.gl/Bmde7w}}
+\end{twentyshort}
+
+\subsection{\underline{Group Projects}}
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Oct 2014}{Gazanfer Emlak}{}{
+	\begin{itemize}
+  		\item Real Estate Website
+  		\item ASP .NET MVC 5 Entity Framework
+  		\item HTML, Javascript, Bootstrap
+  		\item Login and logout
+  		\item User Settings 
+  		\item Chat System
+	\end{itemize}}
+	\twentyitem{Jan 2016}{Corner Writers}{}{
+	\begin{itemize}
+  		\item Android app that collect many newspaper's authors
+  		\item XML, RSS, HTML parser
+  		\item Web service, PHP
+  		\item Analysis and testing
+  		\item Roboelectric framework
+	\end{itemize}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\section{Social Responsibility Project}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{April 2016}{Gulen Cocuk Senligi}
+	\twentyitemshort{December 2016}{Bati'dan Dogu'ya Isikliyiz projesi}
+	\twentyitemshort{November 2016 - January 2017}{ Kodlamaca 1. Kur / CYDD }
+	\twentyitemshort{March-June 2017}{ Kodlamaca 2. Kur / CYDD }
+\end{twentyshort}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.%
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
