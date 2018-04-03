@@ -1,43 +1,26 @@
-<div class="nav-side-menu">
-    <div id="info">
-        <div class="row-picture">
-            <a href="/">
-                <img id="about" class="logo-img" src="{{ site.logo }}" height="75px" width="75px">
+{% if page.title == "Home"
+   or page.title == "Blog"
+   or page.title == "Projects"
+   or page.title == "Tags"
+%}{% assign showHeader = true %}{% endif %}
+
+{% if showHeader == true %}
+    <header class="header-home {% if site.animation %}animated{% endif %}">
+        {% if site.about %}
+            <a class="link" href="{{ site.url }}/about">
+                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
             </a>
-        </div>
-        <div class="row-details">
-            <h4 class="list-group-item-heading">{{ site.author }}</h4>
-            <p class="list-group-item-text">{{ site.about }}</p>
-            {% include social_links.html %}
-        </div>
-    </div>
-    <div id="blogging">
-        {% for aboutMe in site.data.about %}
-        <h3 style="{{aboutMe.title-style}}">{{aboutMe.title}}</h3>
-        <div style="padding: 1% 2% 1% 4%;">{{aboutMe.content}}</div>
-        {% endfor %}
-        <hr class="style">
-        <h2 style="color:#23282e;text-align: center;padding-top:1%;font-weight: bold;">I <i class="fa fa-heart text-danger" style="color:red"></i> open source!</h2>
-        <hr class="style">
-        <h3 style="color:#23282e; text-align: center;padding-top:1%;font-weight: bold;">Skills</h3> {% for skill in site.data.skills %}
-        <div>
-            <div class="col-lg-4 progress-bar-label">{{skill.title}}</div>
-            <div class="col-lg-7">
-                <div class="progress">
-                    <div class="progress-bar progress-bar-info" style="width: {{skill.progress}}%"></div>
-                </div>
-            </div>
-        </div>
-        </br>
-        {% endfor %}
-        </br>
-        </br>
-        </br>
-        </br>
-        <hr class="style">
-        <div class="social-icons" align="center">
-            {% for followed in site.data.followed %}
-            <a class="icon" target="_blank" href="{{ followed.link }}"><i class="fa {{ followed.icon }}"></i></a> {% endfor %}
-        </div>
-    </div>
-</div>
+        {% else %}
+            <span class="link">
+                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+            </span>
+        {% endif %}
+
+        <h1 class="title">{{ site.name }}</h1>
+        <h2 class="description">{{ site.bio }}</h2>
+
+        {% include social-links.html %}
+    </header>
+{% endif %}
+
+{% include nav.html %}

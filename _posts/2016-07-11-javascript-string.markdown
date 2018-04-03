@@ -1,12 +1,15 @@
 ---
-title: Javascript String
-published: false
+title: "Javascript String"
 layout: post
-tags:
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
 - string
 - javascript
-categories:
-- javascript
+category: blog
+author: mkarayel
+description: Javascript String
 ---
 
 <b><u>Declaration</u></b>
