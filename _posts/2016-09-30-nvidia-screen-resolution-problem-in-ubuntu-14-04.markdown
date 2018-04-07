@@ -1,7 +1,7 @@
 ---
 title: "Nvidia Screen Resolution Problem in Ubuntu 14.04"
 layout: post
-date: 2016-02-24 22:48
+date: 2016-09-30
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:

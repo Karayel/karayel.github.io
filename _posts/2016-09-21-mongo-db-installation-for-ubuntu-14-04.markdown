@@ -1,7 +1,7 @@
 ---
 title: "Mongo DB Installation for Ubuntu 14.04"
 layout: post
-date: 2016-02-24 22:48
+date: 2016-09-21
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
