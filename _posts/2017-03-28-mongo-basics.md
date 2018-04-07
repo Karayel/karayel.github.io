@@ -1,11 +1,13 @@
 ---
 title: Mongo Basics
 layout: post
-published: true
-tags:
-- mongodb
-categories:
-- mongodb
+date: 2016-02-24 22:48
+image: "/assets/images/markdown.jpg"
+tag:
+- mongo
+category: blog
+author: mkarayel
+description: Mongo Basics
 ---
 
 # The _id field in MongoDB 

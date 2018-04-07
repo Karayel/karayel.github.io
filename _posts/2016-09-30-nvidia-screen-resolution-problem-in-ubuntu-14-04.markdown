@@ -1,9 +1,15 @@
 ---
-published: true
-title: Nvidia Screen Resolution Problem in Ubuntu 14.04
+title: "Nvidia Screen Resolution Problem in Ubuntu 14.04"
 layout: post
-tags: [linux, nvidia]
-categories: [linux]
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- linux
+- nvidia
+category: blog
+author: mkarayel
+description: Nvidia Screen Resolution Problem in Ubuntu 14.04
 ---
 
 1) Open the terminal.Type the below code in terminal and hit enter

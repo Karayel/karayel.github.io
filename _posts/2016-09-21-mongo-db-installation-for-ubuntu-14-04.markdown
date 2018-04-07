@@ -1,10 +1,16 @@
 ---
-published: true
-title: Mongo DB Installation for Ubuntu 14.04
+title: "Mongo DB Installation for Ubuntu 14.04"
 layout: post
-tags: [mongodb, installation]
-categories: [mongodb]
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- mongo
+category: blog
+author: mkarayel
+description: Mongo DB Installation for Ubuntu 14.04
 ---
+
 <b><u>Import the public key used by the package management system</b></u>
 
 {% highlight bash %}

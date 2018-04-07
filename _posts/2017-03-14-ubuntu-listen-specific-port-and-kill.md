@@ -1,11 +1,14 @@
 ---
-title: Ubuntu Listen Specific Port and Kill
-published: 'true'
+title: "Ubuntu Listen Specific Port and Kill"
 layout: post
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
-- linux
-- network
-categories: linux
+- ubuntu
+category: blog
+author: mkarayel
+description: Ubuntu Listen Specific Port and Kill
 ---
 
 {% highlight bash %}

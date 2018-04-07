@@ -1,10 +1,17 @@
 ---
-published: true
-title: Netbeans and JDK Installation
+title: "Netbeans and JDK Installation"
 layout: post
-tags: [linux, netbean, java]
-categories: [linux]
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- linux
+- java
+category: blog
+author: mkarayel
+description: Netbeans and JDK Installation
 ---
+
 1) Dowloand JDK xxxx with NetBeans 8.x from Oracle.
 2) Open terminal Ctrl + Alt + T
 3) Move to dowloaded file folder.

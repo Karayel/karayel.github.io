@@ -1,10 +1,19 @@
 ---
-published: true
-title: JSON API and AJAX Usage
+title: "JSON API and AJAX Usage"
 layout: post
-tags: [javascript, json, ajax]
-categories: [javascript]
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- javascript
+- json
+- ajax
+category: blog
+author: mkarayel
+description: JSON API and AJAX Usage
 ---
+
+
 We can make basic application with using json api and ajax. We can use some html file as below and JSON file as linked https://www.freecodecamp.com/json/cats.json during the application.
 
 {% highlight html %}

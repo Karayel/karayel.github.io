@@ -1,11 +1,14 @@
 ---
-title: Ubuntu Add Alias
-published: true
+title: "Ubuntu Add Alias"
 layout: post
-tags:
-- linux
-categories:
-- linux
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- ubuntu
+category: blog
+author: mkarayel
+description: Ubuntu Add Alias
 ---
 
 {% highlight bash %}

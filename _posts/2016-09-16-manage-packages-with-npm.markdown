@@ -1,10 +1,17 @@
 ---
-published: true
-title: Manage Packages with npm
+title: "Manage Packages with npm"
 layout: post
-tags: [javascript, npm, manage, package]
-categories: [javascript]
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- javascript
+- npm
+category: blog
+author: mkarayel
+description: Manage Packages with npm
 ---
+
 <b><u>Install</u></b>
 
 {% highlight js %}

@@ -1,10 +1,18 @@
 ---
-published: true
-title: Create New Desktop and Launcher Shortcut in Ubuntu 14.04
+title: "Create New Desktop and Launcher Shortcut in Ubuntu 14.04"
 layout: post
-tags: [linux, shortcut]
-categories: [linux]
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- linux
+- shortcut
+category: blog
+author: mkarayel
+description: Create New Desktop and Launcher Shortcut in Ubuntu 14.04
 ---
+
+
 <b><u>Create New Desktop Shortcut</u></b>
 
 1) Open Terminal.Type the below code in terminal and hit enter.
