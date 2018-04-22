@@ -1,9 +1,8 @@
 ---
-title: "JSON API and AJAX Usage"
+title: JSON API and AJAX Usage
 layout: post
-date: 2016-08-25
-image: /assets/images/markdown.jpg
-headerImage: false
+date: '2016-08-25'
+image: "/assets/images/markdown.jpg"
 tag:
 - javascript
 - json
@@ -13,22 +12,22 @@ author: mkarayel
 description: JSON API and AJAX Usage
 ---
 
-
 We can make basic application with using json api and ajax. We can use some html file as below and JSON file as linked https://www.freecodecamp.com/json/cats.json during the application.
+
 
 {% highlight html %}
 <div class="container-fluid">
-  <div class = "row text-center">
+  <div class ="row text-center">
     <h2>Cat Photo Finder</h2>
   </div>
-  <div class = "row text-center">
-    <div class = "col-xs-12 well message">
+  <div class ="row text-center">
+    <div class ="col-xs-12 well message">
       The message will go here
     </div>
   </div>
-  <div class = "row text-center">
-    <div class = "col-xs-12">
-      <button id = "getMessage" class = "btn btn-primary">
+  <div class ="row text-center">
+    <div class ="col-xs-12">
+      <button id ="getMessage" class = "btn btn-primary">
         Get Message
       </button>
     </div>
