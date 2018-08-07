@@ -1,4 +1,4 @@
-# main text of home
+    # main text of home
 name: Mert Karayel
 bio: Software Engineer at Netaş
 
@@ -12,8 +12,8 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
+resume: false
+resume-external: false
 resume-url: /static/cv/MertKarayel.pdf
 
 url: https://karayel.github.io/
