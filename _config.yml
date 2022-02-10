@@ -34,8 +34,8 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-#facebook: myfacebook
-twitter: mkarayelm
+# facebook: myfacebook
+# twitter: mkarayelm
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -50,7 +50,7 @@ stackoverflow: 4919940/karayel
 #medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: mert.karayel@mkarayel.com
+email: mertkarayel94@hotmail.com
 
 authors:
     johndoe:
